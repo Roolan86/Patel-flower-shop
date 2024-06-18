@@ -1,0 +1,83 @@
+header {
+    background-color: #89af64;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    padding:0 ;
+}
+nav ul li {
+    display: inline;
+    margin:0 2rem ;
+}
+
+nav ul li a{
+    color: white ;
+    text-decoration: none;
+}
+
+.featured-item {
+    display: inline-block;
+    margin:1em;
+    text-align: center;
+background-color: #89af64;}
+
+Basket{
+        display: inline-block;
+        margin:1em;
+        text-align: center
+        border-radius: 50%
+    backround-color:#89af64}
+
+    .hamper1{
+        display: inline-block;
+        margin:1em;
+        text-align: left;
+        border-radius: 50%
+    backround-color:#89af64}
+
+.body{
+ color:grey;
+ background-color: #92af64}
+
+form {
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+}
+
+form label {
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    width: 100%;
+    max-width: 300px;
+}
+#products .product img {
+    width: 150px;
+    height: 150px;
+}
+
+form button {
+    padding: 0.5em 2em;
+    background-color: #827a79;
+    color: white;
+    border: solid;
+    cursor: pointer;
+    position: left;
+    size-adjust:initial;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
